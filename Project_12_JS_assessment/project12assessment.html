@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 12 - Assessment - Meme Generator</title>
+    <link rel="stylesheet" type="text/css" href="project12assessment.css">
+</head>
+<body>
+    <header>
+        <h1>This is Meme Generator!</h1>
+        <hr>
+        <p>Find image and input link to this image, top text for the image and bottom text for the image. After submit You will get result.</p>
+    </header>
+    <main>
+        <form id="meme-form">
+            <label for="image-link">Image link:</label>
+            <input type="text" id="image-link" name="image-link"><br><br>
+      
+            <label for="top-text">Top text:</label>
+            <input type="text" id="top-text" name="top-text"><br><br>
+      
+            <label for="bottom-text">Bottom text:</label>
+            <input type="text" id="bottom-text" name="bottom-text"><br><br>
+      
+            <button type="submit">Generate meme</button>
+      </form>
+
+      <br>
+    
+      <button id="delete-memes">Delete All Memes</button>
+
+      <br>
+      <hr>
+      <br>
+
+      <div id="meme-container"></div>
+
+      <br>
+
+    </main>
+    <hr>
+    <footer>
+        <h2>Thank You!</h2>
+    </footer>
+    <script src="project12assessment.js"></script>
+</body>
+</html>

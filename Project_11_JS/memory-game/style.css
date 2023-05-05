@@ -1,0 +1,18 @@
+#game div {
+  border: 1px solid black;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+
+button,
+form {
+  display: inline-block;
+  vertical-align: top;
+}
+
+h1 {
+  font-size: 3em; /* change the font size to 3 times the default size */
+  text-align: center; /* center the text */
+}

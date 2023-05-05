@@ -1,0 +1,11 @@
+let name = "Anton Boikov";
+let dayOfBirth = 24;
+// let name = "Tony Boikov"; // That won't work.;
+name = "Anton";
+// Now "name" is Anton.;
+let color = prompt("What is Your favorite color?");
+console.log(`Hello, my name ${name}. My favorite color ${color}.`);
+let smartPhone = 'Hi. I have smartphones, which rund on "iOS" and "Android" OS.';
+// You can make some variable with null. Undefined when it doesn't have any meanings and not assigned.;
+// NaN - Not a Number. When try to do some numeric on not numbers.;
+// You will have variable "thing", but with no any meaning - undefined.;
